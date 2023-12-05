@@ -1,0 +1,23 @@
+.departamentos {
+    color: var(--green-copal);
+    font-weight: 500;
+    transition: color .2s ease;  
+    font-size: 12px;
+    text-decoration: underline;
+    }
+   
+
+    .operador {
+      color: var(--green-copal);
+      font-weight: 500;
+      font-size: 24px; /* Ajusta el tamaño del texto según tu preferencia */
+      line-height: 1; /* Puedes ajustar el valor para controlar la altura de línea */
+      margin-top: -10px; /* Ajusta el valor según tu preferencia para posicionarlo más arriba */
+    }
+
+    .nuevoDepartamento {
+      color: var(--green-copal);
+      font-weight: 500;
+      transition: color .2s ease;
+      font-size: 12px;
+  }

@@ -1,0 +1,23 @@
+.socio {
+  color: var(--green-copal);
+  font-weight: 500;
+  transition: color .2s ease;  
+  
+  }
+  .socio a {
+    
+    color: var(--green-copal);
+    font-weight: 500;
+    transition: color .2s ease; 
+  }
+  .operador {
+    color: var(--green-copal);
+    font-weight: 500;
+    font-size: 24px; /* Ajusta el tamaño del texto según tu preferencia */
+    line-height: 1; /* Puedes ajustar el valor para controlar la altura de línea */
+    margin-top: -10px; /* Ajusta el valor según tu preferencia para posicionarlo más arriba */
+  }
+  
+  .socio a:hover {
+    border-bottom: 1px solid var(--green-copal); /* Ejemplo de una línea sólida de 2 píxeles de grosor con color definido por una variable CSS */
+  }

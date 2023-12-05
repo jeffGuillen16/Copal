@@ -1,0 +1,180 @@
+
+
+.socio  {
+  width: 200px;
+  color: var(--green-copal);
+  font-weight: 500;
+  transition: color .2s ease;
+  font-size: 12px;
+  cursor: default;
+}
+.operador {
+  color: var(--green-copal);
+  font-weight: 500;
+  line-height: 1;
+  font-size: 10px;
+}
+
+.operador svg {
+  margin-top: 4px;
+  margin-left: 0px;
+  height: auto;
+}
+
+#cajanav{  
+    background-color: #fcfcfc;
+    font-weight: bold;
+    font-size: 11pt; text-align: right;
+    border-top: 1px solid var(--grey-copal) ;
+}
+.form-control:focus {
+  box-shadow:none;
+}
+#cajanav:hover{
+    border-top-left-radius: 0;
+}
+.button{
+    background-color: #fcfcfc;
+    font-weight: bold;
+    font-family: 11pt; text-align: right;
+    border-color: none; 
+    outline: none;
+}
+
+#input{
+background-color: #fcfcfc;
+    font-weight: bold;
+    font-size: 11pt; text-align: right;
+}
+@media screen and (max-width: 768px) {
+    .prueba{
+        display: none;
+    }
+}
+
+.nav-socios{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  padding-bottom: .75rem;
+}
+
+/* Estilo personalizado para el botón */
+.btn-custom {
+    background-color: var(--blue-copal); /* Color de fondo personalizado */
+    color: var(--green-copal); /* Color del texto en el botón (opcional) */
+    
+    /* Agrega otros estilos personalizados según sea necesario */
+  }
+  
+  /* Cambia el color del texto del botón cuando se hace hover (opcional) */
+  .btn-custom:hover {
+    background-color: var(--blue-copal); /* Color de fondo personalizado en hover */
+    opacity: 0.8;
+    color: #efefef;
+    /* Cambia otros estilos en hover si es necesario */
+  }
+  
+/* Estilo para hacer que el botón sea circular */
+.btn-rounded {
+    width: 50px; /* Ancho deseado */
+    height: 50px; /* Alto deseado */
+    border-radius: 50%; /* Hace que el botón sea circular */
+    border: none;
+  }
+  
+  /* Cambio de estilo en hover (opcional) */
+.btn-rounded:hover {
+    /* Agrega aquí los estilos en hover si lo deseas */
+    opacity: 0.8;
+  }
+  
+.filter{
+    width: 100%;
+}
+.item{
+    margin-left: 10px;
+  }
+.custom-add-socio{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-input  {
+    border: none; 
+    outline: none;
+    background-color: transparent; 
+    /* saco el diseño del imput de buscar los bordes */
+    
+  }
+  .custom-input:focus {
+    outline: none; /* Elimina el resaltado de enfoque solo al hacer clic */
+  }
+  /*Fedee- Tomi me aparece un borde azul cuando hago click no se como sacarlo quizas sea  algo de boostrap*/
+  
+  .input-group{
+    border-bottom: 1px solid var(--green-copal);
+    align-self: baseline;
+  }
+  
+  .add-button{
+    height: 44px;
+    width: 100%;
+  }
+  
+  .custom-input-filtro:hover {
+    background-color: none!important; /* Cambia el color de fondo al pasar por encima */
+        /* Otros estilos para el estado hover */
+  }
+
+  .custom-input{
+    color: var(--green-copal)!important;
+    
+    &:hover{
+      color: var(--green-copal-hover)!important;
+      background-color: transparent!important;
+    }
+  }
+
+  .custom-input-filtro:focus {
+    outline: none; /* Elimina el resaltado de enfoque solo al hacer clic */
+  }
+
+  .dropdown filter{
+    border-color:none;
+  }
+
+  .btn-custom {
+    background-color: var(--green-copal);
+    color: #ffff;
+}
+
+/* .btn{
+
+  &:hover{
+    background-color: transparent!important;
+    color: var(--green-copal-hover);
+  }
+  &:active{
+    background-color: transparent!important;
+  }
+} */
+
+.col-3{
+  padding-left: 0!important;
+  padding-right: 1rem;
+}
+
+.col-2{
+  padding-left: 0!important;
+  padding-right: 1rem;
+}
+
+#boton-add-1{
+  padding-right: 0!important;
+}
+
+
+
+  

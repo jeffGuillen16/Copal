@@ -1,0 +1,16 @@
+{
+  "denominacion" : "cabrales",
+  "cuit" : "20-12345678-9",
+  "tipoSocio" : "EMPRESA",
+  "areaSocio": "Normativa",
+  "descripcion" : "Empresa de desarrollo de software",
+  "email" : "@cabrales.com",
+  "telefono" : "12345678",
+  "sitioWeb" : "www.cabrales.com",
+  "calle" : "Av. Cabrales",
+  "altura": "1234",
+  "nroDepartamento": "1",
+  "piso": "1"
+  
+}
+ 

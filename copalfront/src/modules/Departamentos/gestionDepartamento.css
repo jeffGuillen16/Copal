@@ -1,0 +1,82 @@
+.title {  
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1rem;
+  color:var(--blue-copal) ;
+}
+
+.title-line{
+    border-bottom: 2px solid var(--green-copal);
+    width: 50px;
+    margin: 0 auto;
+}
+
+.info-tecnico-cadrs{
+  overflow-y: scroll;
+  padding: 1rem;
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+.cads-display{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual ancho */
+  grid-gap: 1.5rem; /* Agrega espacio entre las columnas */
+}
+
+.copal-button{
+  width: 220px;
+  text-decoration: none;
+  font-weight: 500;
+  /* transition: color .2s ease; */
+  
+}
+
+.superDepartamento{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-between;
+  align-items: center;
+  padding-bottom: .25rem;
+  border-bottom: 2px solid var(--green-copal);
+
+  .superdepto-item{
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--blue-copal);
+  }
+}
+
+.infoDepartamentosTecnicos{
+  border: 2px solid var(--green-copal) ;
+  margin: 1rem 0 1rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  .puestos-ctn{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+
+    .puesto{
+      display: flex;
+      flex-direction: column;
+
+      .titulo-puesto{
+        color: var(--green-copal);
+      }
+    }
+  }
+}
+
+.rowDepto{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+}

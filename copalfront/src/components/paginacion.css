@@ -1,0 +1,29 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    gap: .5rem;
+    
+    /* TODO: ver estilo una vez que haya mas de una pagina */
+    .page-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--white-copal);
+        background-color: var(--green-copal);
+        border-radius: 0px !important; 
+        border: none;
+        width: 36px;
+        height: 36px;
+    }
+
+    .page-item.active .page-link {
+        cursor: default;
+        border: 3px solid var(--green-copal);
+        box-sizing: border-box;
+        background-color: var(--green-copal-hover); /* Change the background color for the active page link */
+        color: var(--white-copal); /* Change the text color for the active page link */
+      }
+}
+

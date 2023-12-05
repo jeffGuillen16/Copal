@@ -1,0 +1,120 @@
+.custom-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-global{
+    width: 500px;
+    height: 250px; /* Altura automática para adaptarse al contenido */
+     /* Margen del 1% en todas las direcciones */
+    /* border: 1px solid transparent; */
+    /* box-sizing: border-box; */
+    /* Aplicar sombra solo en la parte inferior */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilo TARJETAS*/
+.container-logo{
+    width: 100px;
+    height: 250px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .img_logo{
+      width: 80px;  
+    }
+}
+.container-info{
+    width: 65%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.035);
+}
+
+.zona1-2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.zona1{
+    height: 70px;
+}
+.zona1 label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.denominacion{
+    align-items: center;
+    margin-top: 30px;
+}
+.descripcion{
+    display: flex;
+    align-items: start;
+    height: 120px;
+}
+.zona2{
+    height: 120px;
+}
+.zona3{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*CSS para los iconos*/
+.custom-icon{
+    color: var(--grey-copal);
+    background-color: var(--green-copal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px; /* Altura fija para los iconos */
+    width: 36px; /* Ancho fijo para los iconos */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    cursor: pointer;
+}
+
+.custom-icon-delete:hover, .custom-icon-edit:hover, .custom-icon:hover {
+    opacity: 50%;
+    z-index: 1;
+}
+
+.container-actions{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+/*FIN*/
+
+/*CSS para el logo usuario*/
+/* .container-logo{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+ */
+/* .logo{
+    height: 250px;
+    width: 250px; 
+
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+} */
+
+/* .img_logo{
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+} */
+/*FIN*/

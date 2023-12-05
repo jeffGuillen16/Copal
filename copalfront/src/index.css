@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&family=Open+Sans&display=swap');
+
+body {
+  margin: 0;
+ /*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --blue-copal: #283549;
+  --blue-copal-light: #3c506f;
+  --grey-copal: #FAFAFA;
+  --grey-copal-2: #F5F5F5;
+  --dark-grey-copal: #747474;
+  --grey-copal-hover: #fafafa2d;
+  --black-copal: #000;
+  --green-copal: #67b4c0;
+  --green-copal-hover: #a7c7ce;
+  --green-lime-copal: #85c067;
+  --white-copal: #FFFFFF;
+  --red-copal: #d55453;
+  --red-copal-hover: #EE8281;
+  --violet-copal: #8e33a7d3;
+  --focus-copal: #a7c7cea4;
+  --disabled-copal: #989898c1;
+  --green-background: rgba(94, 189, 115, 0.2);
+  --green-check: #5EBD6D;
+}

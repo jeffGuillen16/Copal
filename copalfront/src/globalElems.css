@@ -1,0 +1,199 @@
+.copal-button-white{
+    display: flex;
+    width: 192px;
+    height: 48px;
+    padding: 19px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;  
+    font-size: 16px;
+    text-decoration: none;
+  
+    background-color: var(--grey-copal);
+    color: var(--green-copal);
+    font-weight: 500;
+    border: 2px solid var(--green-copal);
+    transition: outline .1s ease;
+      
+    transition: box-shadow .1s ease;
+    transition: background-color .35s ease;
+  
+    &:hover{
+        background-color: #dbdbdbba;
+        cursor: pointer;
+        transition: background-color .35s ease;
+    }
+  
+    &:focus{
+      outline-color: var(--violet-copal);
+      outline-width: 10px;
+      outline-offset: 4px; 
+  
+      transition: outline .075s ease;
+  
+      /* outline-style: solid;*/
+      /* outline: 4px solid var(--focus-copal); */
+      /* box-shadow: 0px 0px 0px 4px var(--focus-copal); */
+      /* transition: outline .1s ease; */
+    }
+  }
+
+  .copal-button-red-outline{
+    display: flex;
+    width: 192px;
+    height: 48px;
+    padding: 19px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;  
+    font-size: 16px;
+    text-decoration: none;
+  
+    background-color: var(--grey-copal);
+    color: var(--red-copal);
+    font-weight: 500;
+    border: 2px solid var(--red-copal);
+    transition: outline .1s ease;
+      
+    transition: box-shadow .1s ease;
+    transition: background-color .35s ease;
+  
+    &:hover{
+        background-color: #dbdbdbba;
+        cursor: pointer;
+        transition: background-color .35s ease;
+    }
+  
+    &:focus{
+      outline-color: var(--violet-copal);
+      outline-width: 10px;
+      outline-offset: 4px; 
+  
+      transition: outline .075s ease;
+  
+      /* outline-style: solid;*/
+      /* outline: 4px solid var(--focus-copal); */
+      /* box-shadow: 0px 0px 0px 4px var(--focus-copal); */
+      /* transition: outline .1s ease; */
+    }
+  }
+
+  .copal-button-red{
+    display: flex;
+    width: 192px;
+    height: 48px;
+    padding: 19px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;  
+    font-size: 16px;
+    text-decoration: none;
+  
+    background-color: var(--red-copal);
+    color: var(--white-copal);
+    font-weight: 400;
+    border: 2px solid var(--red-copal);
+    transition: outline .1s ease;
+      
+    transition: box-shadow .1s ease;
+    transition: background-color .35s ease;
+  
+    &:hover{
+        background-color: var(--red-copal-hover);
+        cursor: pointer;
+        transition: background-color .35s ease;
+    }
+  
+    &:focus{
+      outline-color: var(--violet-copal);
+      outline-width: 10px;
+      outline-offset: 4px; 
+  
+      transition: outline .075s ease;
+  
+      /* outline-style: solid;*/
+      /* outline: 4px solid var(--focus-copal); */
+      /* box-shadow: 0px 0px 0px 4px var(--focus-copal); */
+      /* transition: outline .1s ease; */
+    }
+  }
+  
+  .copal-button{
+    display: flex;
+    width: 192px;
+    height: 48px;
+    padding: 19px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;  
+    font-size: 16px;
+    text-decoration: none;
+  
+    background-color: var(--green-copal);
+    color: var(--grey-copal);
+    font-weight: 400;
+    border:none;
+    transition: outline .1s ease;
+      
+    /* transition: box-shadow .1s ease; */
+  
+    &:hover{
+        background-color: var(--green-copal-hover);
+        cursor: pointer;
+        transition: background-color .35s ease;
+  
+    }
+  
+    &:focus{
+      outline-color: var(--violet-copal);
+      outline-width: 10px;
+      outline-offset: 4px; 
+  
+      transition: outline .075s ease;
+  
+      /* outline-style: solid;*/
+      /* outline: 4px solid var(--focus-copal); */
+      /* box-shadow: 0px 0px 0px 4px var(--focus-copal); */
+      /* transition: outline .1s ease; */
+    }  
+  }
+  
+  .copal-icon-button{
+    background-color: var(--green-copal);
+    border: none;
+    box-shadow: none;
+    color: var(--grey-copal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  
+    /* transition: box-shadow .1s ease; */
+  
+    &:hover{
+      background-color: var(--green-copal-hover);
+      cursor: pointer;
+      transition: background-color .35s ease;
+  
+    } 
+    
+    &:focus{
+      outline-color: var(--violet-copal);
+      outline-width: 10px;
+      outline-offset: 4px; 
+  
+      transition: outline .075s ease;
+  
+      /* outline-style: solid;*/
+      /* outline: 4px solid var(--focus-copal); */
+      /* box-shadow: 0px 0px 0px 4px var(--focus-copal); */
+      /* transition: outline .1s ease; */
+    } 
+  }

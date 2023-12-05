@@ -1,0 +1,131 @@
+:root{
+    --primary: #283549;
+    --font: #67B4C0;
+    --grey: #efefef;
+    margin-bottom: 0;
+}
+.custom-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.global{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.box-middle {
+    display: flex;
+    flex-direction: row;    
+    flex: 1;
+    overflow: hidden;
+}
+ 
+
+.container-home{
+    display: flex;
+    flex-direction: row;    
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.custom-container {
+   
+}
+
+.custom-text{
+    font-weight: 800;
+    font-size: 10vh;
+    color: var(--primary)
+}
+
+.custom-fondo {
+    display: flex;
+    background-image: url('./images/svgviewer-png-output_1.png');
+    background-size: auto 100%; /* Ajusta la imagen a la altura y mantiene el ancho original */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-position: center center; /* Centra la imagen horizontal y verticalmente */
+    /* Otras propiedades de estilo opcionales */
+    min-height: 80vh;
+    min-width: 80vh;
+    align-items: center;
+    justify-content: center;
+
+}
+  
+
+/* Estilos para los elementos internos de Conteiner */
+.elemento-interno{
+    padding:.5rem 2rem .5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* Otros estilos si es necesario */
+    /* Otras propiedades de estilo opcionales */
+}
+
+  
+.navigation{
+    min-height: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.contenido{
+    flex: 1;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        display:none
+    }
+}
+
+.global-container{
+    padding: 0;
+    margin: 0;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    /*overflow: hidden; /* Oculta el scroll vertical */
+}
+.conteiner-var{
+    padding: 0;
+    margin: 0;
+    min-height: calc(100% - 50px - 50px);
+}
+
+.diplay-cards{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding: .1rem;
+    overflow-y: scroll;
+    grid-template-columns:  1fr 1fr; /* Crea dos columnas con el mismo ancho */
+    gap: 10px;
+    justify-content: center;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Altura del contenedor (puedes ajustarlo según tus necesidades) */
+    
+  }
+
+  /*
+  .box-top {
+    height: 80px;
+    align-items: center;
+  }
+*/
+  

@@ -1,0 +1,50 @@
+
+:root {
+    --blue-copal: #283549;
+    --blue-copal-light: #3c506f;
+    --grey-copal: #FAFAFA;
+    --grey-copal-2: #F5F5F5;
+    --dark-grey-copal: #747474;
+    --grey-copal-hover: #fafafa2d;
+    --black-copal: #000;
+    --green-copal: #67b4c0;
+    --green-copal-hover: #a7c7ce;
+    --green-lime-copal: #85c067;
+    --white-copal: #FFFFFF;
+    --red-copal: #d55453;
+    --red-copal-hover: #EE8281;
+    --violet-copal: #8e33a7d3;
+    --focus-copal: #a7c7cea4;
+    --disabled-copal: #989898c1;
+  }
+
+  .inputGroup {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    width: 30rem;
+    margin-right: 30rem;
+    border: none; /* Elimina el borde del input */
+    outline: none;
+}
+
+.textLine {
+    width: 100%; /* Ancho completo del contenedor */
+    border: none;
+    position: relative;
+  }
+  
+  .textLine::after {
+    content: "";
+    display: block;
+    border-bottom: 0.5px solid var(--green-copal); /* Espesor, estilo y color de la línea */
+    transform: scaleY(0.5); /* Escala verticalmente la línea */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  

@@ -1,0 +1,108 @@
+:root{
+    --primary: #283549;
+    --font: #67B4C0;
+    --grey: #efefef;
+}
+
+.div{
+    background-color: var(--primary);
+    width: 200px;
+    height: 50px;
+    border: 0;
+}
+.div0{
+    background-color: var(--primary);
+    width: 80px;
+    height: 50px;
+    border: 0;
+    color: var(--font);
+}
+
+.color{
+    color: var(--primary);
+    font-weight: bold;
+}
+.div3{
+    background-color: var(--primary);
+    width: 300px;
+    height: 100px;
+    border: 0;
+}
+
+.custom-checkboxs{
+    margin-left: 10px;
+}
+
+.item-error-validation{
+    color: red;
+}
+.btn-copal{
+    background-color: var(--font);
+    color: #efefef;
+}
+.btn-copal:hover{
+    background-color: var(--font);
+    opacity: 0.6;
+    color: #efefef;
+}
+
+.card-delete-container{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icono{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 50%;
+    background-color: #fad5d5;
+}
+
+.custom-icon-delete-socio{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.container-text-info{
+    font-size: 1.5em;
+}
+
+.container-text-message{
+    font-size: 1em;
+}
+.container-icono-success{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 50%;
+    background-color: #e1f3e4;
+}
+.icon-check-success{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.form-control{
+
+    border-radius: 0;
+}
+
+.form-select{
+
+    border-radius: 0;
+}
+
+.button-ctn{
+    align-self: center;
+}

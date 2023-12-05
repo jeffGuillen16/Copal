@@ -1,0 +1,64 @@
+
+:root {
+    --blue-copal: #283549;
+    --blue-copal-light: #3c506f;
+    --grey-copal: #FAFAFA;
+    --grey-copal-2: #F5F5F5;
+    --dark-grey-copal: #747474;
+    --grey-copal-hover: #fafafa2d;
+    --black-copal: #000;
+    --green-copal: #67b4c0;
+    --green-copal-hover: #a7c7ce;
+    --green-lime-copal: #85c067;
+    --white-copal: #FFFFFF;
+    --red-copal: #d55453;
+    --red-copal-hover: #EE8281;
+    --violet-copal: #8e33a7d3;
+    --focus-copal: #a7c7cea4;
+    --disabled-copal: #989898c1;
+  }
+.contenedorSeguimiento{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.textfirst{
+    font-size: 1rem;
+    color: var(--green-copal);
+    font-weight: bold;
+    margin: 0;
+}
+
+.textConteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteinerColumnFirst {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.recursos-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea los elementos hacia el principio */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    width: 100%;
+}
